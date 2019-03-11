@@ -15,7 +15,7 @@ body{
   margin: auto;
   height: 400px;
   background: black;
-  padding: 15px;
+  padding: 20px;
 }
 
 .screen
@@ -27,20 +27,20 @@ body{
   margin-top: 20px;
   border-radius: 5px;
   text-align: right;
-  align-items: center;
+
 
 }
 
  .keys
 {
-  display: grid;
+   display: grid;
   grid-template-columns: repeat(4,1fr);
   grid-gap: 20px;
   height:60px;
-  font-size: 32px;
-  padding: 20px;
+  font-size: 1rem;
+  padding:  15px 20px;
   font-weight: bold;
-  border-radius: 4px;
+  border:none;
   color: grey;
 
 
